@@ -1,0 +1,71 @@
+body {
+    background-image: url(dev.jpeg);
+    background-color: #31394c;
+    color: #ffffff;
+  }
+
+h1 {
+    font-size: 48px;
+    font-family: 'Audiowide', cursive;
+    font-weight: 200;
+    color: #f2c94c;
+    text-shadow: 0 0 0px #fff, 0 0 50px #f2c94c;
+    
+    text-align: center;
+    line-height: 59px;
+    
+    padding: 0;
+    margin: 0;
+  }
+
+.stopwatch {
+    display: grid;
+    justify-items: center;
+    grid-row-gap: 23px;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.time {
+    font-family: 'Audiowide', cursive;
+    font-weight: 100;
+    font-size: 60px;
+  }
+
+/*
+.border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 320px;
+    width: 320px;
+    
+    border: 2px solid white;
+    border-radius: 50%;
+  }
+*/
+
+button {
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+    border: none;
+    margin: 0;
+    outline: none;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    
+    width: 100px;
+  }
+
+#playButton {
+    display: block;
+  }
+  
+#pauseButton {
+    display: none;
+  }
